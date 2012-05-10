@@ -1,0 +1,7 @@
+1. Run the sample 
+2. Open in two browser windows or tabs
+3. Press F2 to open blackbird console
+4. Press button to trigger some signalR notifications
+5. Make sure that they show up in blackbird logs in both windows
+6. See that each time notification is triggered it causes one request against: /signalr/ which causes 404 and is followed by correct /signalr/reconnect?transport=longPooling...
+7. Notice that after about 2 minutes notifications stop working

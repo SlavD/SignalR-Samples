@@ -1,0 +1,15 @@
+#ignore suo files
+
+*.suo
+
+#ignore bin
+
+bin
+
+#ignore obj
+
+obj
+
+#ignore .user
+
+*.user
